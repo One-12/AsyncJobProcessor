@@ -1,0 +1,11 @@
+{
+  "mongo":{
+    "uri":"mongodb://root:rootroot1@ds024548.mlab.com:24548/one12"
+  },
+  "job":{
+    "port": 6379,
+    "host": "one12-dev.redis.cache.windows.net",
+    "password": "WKNGghyr2IMOCrRSoEZB95u3rM1ZYX+mEV0n5kFtlIo=",
+    "tagPool" : "tagPool"
+  }
+}

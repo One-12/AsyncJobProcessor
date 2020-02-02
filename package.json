@@ -1,0 +1,23 @@
+{
+  "name": "asyncjobprocessor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/One-12/AsyncJobProcessor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/One-12/AsyncJobProcessor/issues"
+  },
+  "homepage": "https://github.com/One-12/AsyncJobProcessor#readme",
+  "dependencies": {
+    "bull": "^3.12.1",
+    "mongoose": "^5.8.11"
+  }
+}
