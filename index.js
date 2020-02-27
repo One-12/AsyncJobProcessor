@@ -9,7 +9,6 @@ const redisConfig = {
   redis: {
     port: config.job.port,
     host: config.job.host,
-    password: config.job.password
   }
 };
 
