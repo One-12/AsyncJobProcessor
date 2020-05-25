@@ -17,7 +17,16 @@
   },
   "homepage": "https://github.com/One-12/AsyncJobProcessor#readme",
   "dependencies": {
+    "@azure/storage-blob": "^12.1.2",
+    "axios": "^0.19.2",
     "bull": "^3.12.1",
-    "mongoose": "^5.8.11"
+    "mongoose": "^5.8.11",
+    "sharp": "^0.25.3",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.11.0"
   }
 }

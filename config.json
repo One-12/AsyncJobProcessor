@@ -1,10 +1,11 @@
 {
   "mongo":{
-    "uri":"mongodb://root:rootroot1@ds024548.mlab.com:24548/one12"
+    "uri": "mongodb://one12-dev:AECXbe7SQitSs8eovoeWkax5fbfCd33UuCUj80KAJE4gy7XLxHjEl3lzzOA0xUFeCyeb3Mi2VBXlqYGkmcXG3Q==@one12-dev.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@one12-dev@"
   },
   "job":{
     "port": 6379,
     "host": "127.0.0.1",
-    "tagPool" : "tagPool"
+    "tagPool" : "tagPool",
+    "uploadPool": "uploadPool"
   }
 }

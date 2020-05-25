@@ -1,20 +1,20 @@
-var tag = require("./tag.entity");
+const tag = require("./tag.entity");
 
 exports.tagProcess = async job => {
-  var data = job.data;
+  const data = job.data;
   if (!data) {
     return;
   }
 
-  var tags = await tag.find({ name: { $in: data } });
+  const tags = await tag.find({ name: { $in: data } });
 
-  var availableTags = tags.map(t => t.name.toLowerCase());
-  var tagsToCreate = data.filter(d => availableTags.indexOf(d.toLowerCase()) < 0);
+  const availableTags = tags.map(t => t.name.toLowerCase());
+  const tagsToCreate = data.filter(d => availableTags.indexOf(d.toLowerCase()) < 0);
   if (tagsToCreate && tagsToCreate.length > 0) {
-    var creatingTags = tagsToCreate.map(t => ({
+    const creatingTags = tagsToCreate.map(t => ({
       name: t
     }));
     console.log('creating tags', creatingTags);
-    var createdTags = await tag.insertMany(creatingTags);
+    await tag.insertMany(creatingTags);
   }
 };

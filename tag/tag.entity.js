@@ -1,7 +1,6 @@
-var mongoose = require("mongoose")
-, schema = mongoose.Schema;
+const mongoose = require("mongoose"); 
 
-var TagSchema = new mongoose.Schema({
+const TagSchema = new mongoose.Schema({
   name: { type: String, required: true, lowercase: true, unique: true }
 });
 
