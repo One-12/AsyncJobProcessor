@@ -12,5 +12,7 @@
   "parserOptions": {
     "ecmaVersion": 11
   },
-  "rules": {}
+  "rules": {
+    "require-await": "error"
+  }
 }
