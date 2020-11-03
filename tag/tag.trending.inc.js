@@ -8,7 +8,7 @@ exports.tagTrendInc = async job => {
         return;
     }
     const userId = data.userId;
-    const users = await user.find({ _id: userId });
+    const users = await user.find({ uid: userId });
     const dateToFilter = new Date(Date.now() - 24 * 60 * 60 * 1000);
     if (!users && users.length != 0) {
         return;

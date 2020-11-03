@@ -19,7 +19,8 @@ exports.tagProcess = async job => {
   if (tagsToCreate && tagsToCreate.length > 0) {
     const creatingTags = tagsToCreate.map(t => ({
       name: t,
-      lastHit: secondsSinceEpoch
+      lastHit: secondsSinceEpoch,
+      userId: data.userId
     }));
     console.log('creating tags', creatingTags);
     await tag.insertMany(creatingTags);
