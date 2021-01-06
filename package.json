@@ -18,7 +18,7 @@
   "homepage": "https://github.com/One-12/AsyncJobProcessor#readme",
   "dependencies": {
     "@azure/storage-blob": "^12.1.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bull": "^3.12.1",
     "mongoose": "^5.8.11",
     "sharp": "^0.25.3",
