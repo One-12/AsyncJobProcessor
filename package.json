@@ -21,7 +21,7 @@
     "axios": "^0.19.2",
     "bull": "^3.12.1",
     "mongoose": "^5.8.11",
-    "sharp": "^0.25.3",
+    "sharp": "^0.30.5",
     "shortid": "^2.2.15"
   },
   "devDependencies": {
