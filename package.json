@@ -20,7 +20,7 @@
     "@azure/storage-blob": "^12.1.2",
     "axios": "^0.19.2",
     "bull": "^3.12.1",
-    "mongoose": "^5.8.11",
+    "mongoose": "^5.13.15",
     "sharp": "^0.25.3",
     "shortid": "^2.2.15"
   },
